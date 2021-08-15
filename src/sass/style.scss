@@ -1,0 +1,27 @@
+@import "base/variables";
+@import "base/mixins";
+@import "base/animations";
+@import "base/media";
+
+* {
+  font-family: "Museo Sans Cyrl", sans-serif;
+}
+
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/button";
+@import "blocks/advantages";
+@import "blocks/titles";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/slider";
+@import "blocks/catalog";
+@import "blocks/testemonials";
+@import "blocks/maps";
+@import "blocks/modals";
+@import "blocks/pageup";
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}

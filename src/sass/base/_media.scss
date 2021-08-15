@@ -1,0 +1,98 @@
+@media (max-width: 991px) {
+  .promo {
+    padding: 21px 20px 93px 20px;
+  }
+  .advantages {
+    padding: 73px 10px 65px 10px;
+  }
+
+  .consultation {
+    padding: 100px 20px 108px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__official {
+    display: none;
+  }
+
+  .advantages__wrapper {
+    flex-direction: column;
+  }
+
+  .advantages__item {
+    max-width: 350px;
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+
+  .slider {
+    padding: 82px 0 82px 0;
+    &__inner {
+      width: 350px;
+    }
+    &__inner-img {
+      width: 350px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .header {
+    flex-direction: column;
+    &__contacts {
+      margin-top: 20px;
+    }
+  }
+  .promo__header {
+    font-size: 32px;
+  }
+  .promo__subheader {
+    font-size: 18px;
+  }
+  .promo__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .promo__icons {
+    margin-top: 35px;
+  }
+  .button_main {
+    width: 200px;
+  }
+  .title_left {
+    font-size: 32px;
+  }
+
+  .slider {
+    padding: 82px 0 82px 0;
+    &__inner {
+      width: 250px;
+    }
+    &__inner-img {
+      width: 250px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .testemonials__item {
+    flex-direction: column;
+  }
+  .testemonials__img {
+    margin: 0 auto;
+  }
+  .testemonials__desc {
+    width: 400px;
+  }
+  .testemonials__wrapper {
+    padding-left: 0px;
+    text-align: center;
+  }
+}
